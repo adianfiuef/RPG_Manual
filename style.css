@@ -1,0 +1,31 @@
+#top-container {
+    background-color: black;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border: solid;
+
+}
+
+#top-row {
+
+    display: inline-block;
+}
+
+#button-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#button-container button{
+    /* margin: top right bottom left*/
+    margin: 10px 50px 10px 50px;
+    padding: 20px 40px 20px 40px;
+    background-color: #000000;
+    color:  white;
+    border: solid;
+
+
+}
