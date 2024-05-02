@@ -12,13 +12,16 @@
         <div ID = "top-container" >
             <div id = "top-row">
                 <h1>Character Manual</h1>  
+                <img src="Images\RPG_logo.jpg" alt="Character Image" height="100px" width="100px">
 
 
                 <div id = "button-container">
 
-                <button id="Character1"> Character1</button>
-                <button id="Character2"> Character2</button>
-                <button id="Character3"> Character3</button>
+                <button id="Character1" onclick="createCharacters()"> Add</button>
+
+                <button id="Character2" onclick= "navigateToImages()">
+                    <a href = "character-images.html"> Character Images</a> </button>
+                <button id="Character3" onclick="showCharactersOnPage()"> Show</button>
 
             </div>
 
@@ -36,10 +39,8 @@
             </div>
 
             <div id="character-info">
-                <h2>Character Info"</h2>
-                <p>Character Name:</p>
-                <p>Character Class:</p>
-                <p>Character Level:</p>
+                <h2>Character Info</h2>
+                <p id="character-stats"></p>
             </div>
     </div>  
 
